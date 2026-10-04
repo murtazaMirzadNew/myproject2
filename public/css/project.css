@@ -1,0 +1,1086 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;background-color:darkslategray;
+
+}
+
+/* ================= TOP BAR ================= */
+
+#khan{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.logo{
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.navbar-links{
+    display: flex;
+    list-style: none;
+
+
+}
+
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-image{
+    width: 500px;
+    max-width: 100%;
+    border-radius: 10px;
+    border-radius: 40px;
+}
+
+
+.hero-text{
+    max-width: 500px;
+    font-size: large;
+    color: aliceblue;
+}
+
+.hero-text h1{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.hero-text p{
+    line-height: 30px;
+}
+
+.apply-button{
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ================= SERVICES ================= */
+
+.services{
+    padding: 40px 20px;
+}
+
+.services h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Services-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-items{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.img-parent{
+    width: 300px;
+    text-align: center;
+}
+
+.images,
+.image{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    margin: 40px;
+    font-size: large;
+
+
+}
+
+.footer-container div{
+    flex: 1;
+    min-width: 250px;
+
+}
+
+.footer-link ul{
+    list-style: none;
+}
+
+.footer-link a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media screen and (max-width: 768px){
+
+    /* navbar */
+
+    .navbar-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-links{
+        flex-direction: column;
+        margin-top: 15px;
+
+    }
+
+    /* hero */
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+
+    .hero-text{
+        width: 100%;
+
+    }
+
+    .hero-text h1{
+        font-size: 26px;
+    }
+
+    .hero-text p{
+        font-size: 16px;
+
+    }
+
+    /* services */
+
+    .container-items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-parent{
+        width: 95%;
+    }
+
+    /* footer */
+
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/* =============== TOP HEADER =============== */
+
+#khan{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* =============== NAVBAR =============== */
+
+.navbar{
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 80px;
+}
+
+.navbar-links{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+}
+
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* =============== CONTACT SECTION =============== */
+
+.contact{
+    padding: 40px 20px;
+}
+
+.contact h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-child{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.child-item1,
+.child-item2{
+    width: 500px;
+    max-width: 100%;
+    background-color: blanchedalmond;
+    padding: 25px;
+    border-radius: 10px;
+}
+.child-item1{
+    font-size: x-large;
+    background-color: blanchedalmond;
+}
+
+/* =============== FORM =============== */
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.element-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input,
+select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#about-submit{
+    padding: 12px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* =============== FOOTER =============== */
+
+.footer{
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-container div{
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-link ul{
+    list-style: none;
+}
+
+.footer-link a{
+    color: white;
+    text-decoration: none;
+}
+
+/* =============== RESPONSIVE =============== */
+
+@media screen and (max-width: 768px){
+
+    /* navbar */
+
+    .navbar-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-links{
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 70px;
+    }
+
+    /* contact section */
+
+    .contact-child{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child-item1,
+    .child-item2{
+        width: 95%;
+
+    }
+
+
+
+    /* footer */
+
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/* ================= TOP TEXT ================= */
+
+#khan{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 80px;
+}
+
+.navbar-links{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* ================= ROOM SECTION ================= */
+
+.se-room{
+    padding: 40px 20px;
+}
+
+.se-room h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#room-images-parent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: large;
+}
+.img-parent:hover{
+    transform: scale(1.1);
+}
+
+.img-parent{
+    width: 320px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.room-image{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sp-room{
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-container div{
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-link ul{
+    list-style: none;
+}
+
+.footer-link a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media screen and (max-width: 768px){
+
+    /* navbar */
+
+    .navbar-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-links{
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 70px;
+    }
+
+    /* rooms */
+
+    #room-images-parent{
+        flex-direction: column;
+        align-items: center;
+        font-size: large;
+
+    }
+    /* #room-images-parent:hover{
+        transform: scale(1.2);
+    } */
+
+    .img-parent{
+        width: 95%;
+    }
+
+    .room-image{
+        height: auto;
+    }
+
+    /* footer */
+
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/* ================= TOP HEADER ================= */
+
+#khan{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 80px;
+}
+
+.navbar-links{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+}
+
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* ================= ABOUT SECTION ================= */
+
+.se-about{
+    padding: 40px 20px;
+}
+
+.se-about h1,
+.se-about h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-items1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.p1,
+.p2,
+.p3{
+    width: 320px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: large;
+
+
+}
+
+
+
+
+.img-about{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-item2{
+    margin-top: 40px;
+    text-align: center;
+    line-height: 20px;
+     background-color: darkgray;
+     padding-left: 20px;
+     margin-left: 550px;
+     width: 300px;
+     height: 200px;
+    border-radius: 20px;
+}
+.about-item2:hover{
+    color: #f2f2f2;
+    transform: scale(1.2);
+
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-container div{
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-link ul{
+    list-style: none;
+}
+
+.footer-link a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media screen and (max-width: 768px){
+
+    /* navbar */
+
+    .navbar-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-links{
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 70px;
+    }
+
+    /* about section */
+
+    .about-items1{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .p1,
+    .p2,
+    .p3{
+        width: 95%;
+    }
+
+    .img-about{
+        height: auto;
+    }
+    .img-about:hover{
+        transform: scale(1.2);
+
+
+    }
+
+    /* footer */
+
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/* ================= TOP TEXT ================= */
+
+#khan{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 80px;
+}
+
+.navbar-links{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* ================= RESPONSIVE SECTION ================= */
+
+.responsiv{
+    padding: 40px 20px;
+}
+
+.responsiv h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.responsive{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: large;
+    direction: rtl;
+    text-align: center;
+    color: white;
+}
+.responsive:hover{
+    color: black;
+
+}
+
+.respon,
+.respon1,
+.respon2{
+    width: 320px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+    background-color: dimgrey;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-container div{
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-link ul{
+    list-style: none;
+}
+
+.footer-link a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+@media screen and (max-width: 768px){
+
+    /* navbar */
+
+    .navbar-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-links{
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 70px;
+    }
+
+    /* content */
+
+    .responsive{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .respon,
+    .respon1,
+    .respon2{
+        width: 95%;
+    }
+
+    /* footer */
+
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/* ================= TOP TEXT ================= */
+
+#khan{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 80px;
+}
+
+.navbar-links{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* ================= FAQ SECTION ================= */
+
+.se-fqa{
+    padding: 40px 20px;
+}
+
+.se-fq-1 h2,
+.se-fq-1 h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.inform,
+.information,
+.information2{
+    width: 320px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    direction: rtl;
+    text-align: center;
+    font-size: large;
+    background-color: burlywood;
+}
+
+.faq-item{
+    margin-bottom: 20px;
+}
+
+.faq-item h4{
+    margin-bottom: 10px;
+    color: darkblue;
+}
+
+.faq-item p{
+    line-height: 28px;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer-container div{
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-link ul{
+    list-style: none;
+}
+
+.footer-link a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media screen and (max-width: 768px){
+
+    /* navbar */
+
+    .navbar-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-links{
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 70px;
+    }
+
+    /* faq */
+
+    .faq-item2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inform,
+    .information,
+    .information2{
+        width: 95%;
+    }
+
+    /* footer */
+
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+#btn{
+    background-color: indigo;
+    color: white;
+}
